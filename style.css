@@ -2,9 +2,7 @@
 
 body {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif
-    background-color: #FFD9FF;
-    font-size: 15px;
+    background-color: #F5DDFA;
 }
 
 header{
@@ -24,7 +22,7 @@ p {
     text-align: justify;
 }
 
-strong{
+strong {
     font-weight: normal;
 }
 
@@ -34,14 +32,12 @@ strong{
     border-radius: 20px;
 }
 
+
 #fixa {
     position: fixed;
     top: 3px;
 }
 
-.posicao-menu{
-    align-self: center;
-}
 
 h1 {
     color: #804680;
@@ -75,7 +71,13 @@ h3 {
 
     .product h2 {
         margin-top: 10px;
-        color: #4c007d;
+        color: #804680;
+        text-shadow: 1px 1px 2 #d884d8;
+    }
+
+    .product h3 {
+        margin-top: 10px;
+        color: #804680;
         text-shadow: 1px 1px 2 #d884d8;
     }
 
@@ -92,11 +94,43 @@ h3 {
         .cardapio h2 {
             font-size: 40px;
             margin-top: 20px;
-            color: #4c007d;
+            color:  #804680;
+            text-shadow: 1px 1px 2 #d884d8;
+        }
+    
+    .invisivel{
+        visibility: hidden;
+    }
+    .context{
+        display: inline-block;
+        flex-grow: 1;
+    }
+        .context h3 {
+            font-size: 35px;
+            margin-top: 10px;
+            color: #806C80;
             text-shadow: 1px 1px 2 #d884d8;
         }
 
+        .context img {
+            width: 400px;
+            height: 200px;
+            margin: 0 50px;
+            padding: 0;
+            object-fit: cover;
+            border-radius: 50px;
+        }
 
+        .context li{
+            margin: 0px;
+            padding-top: 5px;
+            font-size: 25px;
+            font-style: oblique;
+            color: #2d014b;
+        }
+        .context img, p{
+        float: left;
+        }
 
 footer {
     text-align: center;
@@ -113,7 +147,6 @@ footer {
         text-align: center;
     }
 
-    /* Estilo padrão do botão */
     .meu-botao {
     display: inline-block;
     padding: 10px 20px;
@@ -123,22 +156,19 @@ footer {
     border-radius: 10px;
     }
 
-    /* Estilo do botão quando o mouse estiver sobre ele */
-    .meu-botao:hover {
-    background-color: #806C80;
-    color: #fff;
-    }
+        .meu-botao:hover {
+        background-color: #806C80;
+        color: #fff;
+        }
 
-    /* Estilo do botão quando estiver pressionado */
-    .meu-botao:active {
-    background-color: #555;
-    color: #fff;
-    }
+        .meu-botao:active {
+        background-color: #555;
+        color: #fff;
+        }
 
-    /* Estilo do botão após ser visitado */
-    .meu-botao:visited {
-    color: purple;
-    }
+        .meu-botao:visited {
+        color: purple;
+        }
 
 
 address{
