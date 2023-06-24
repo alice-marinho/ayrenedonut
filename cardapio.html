@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR49JJ2JX1"></script>
         <script>
@@ -16,23 +19,57 @@
         gtag('config', 'G-QR49JJ2JX1');
         </script>
 
+    <style>
+    strong {
+    font-weight: normal;
+    }
+    </style>
+
     <title>Cardápio</title>
 
 <body>
-    <nav id="topo" class="menu">
-        <a href="index.html">Página Inicial</a>
-        <a href="cardapio.html">Cardápio</a>
-        <a href="contato.html">Sobre</a></li>
-        <a href="professor.html" rel="nofollow">Professor</a>
+   
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #B386B3;">
+        <a class="navbar-brand" href="#">
+            <div class="col-md-1">
+                <img id="fixa" src="imagens/logo-nav-semfundo.png" width="50" height="50" alt="Logo do Ayrene donut"></a>
+            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="index.html">Pagina Inicial <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="cardapio.html">Cardápio</a>
+                        </li>
+                        <li class="nav-item ">
+                        <a class="nav-link" href="contato.html">Sobre</a>
+                        </li>
+                        <li class="nav-item ">
+                        <a class="nav-link" href="professor.html" rel="nofollow">Professor</a>
+                    </li>
+                </ul>
+                </div>  
     </nav>
 
-    <header>
+    <div class="invisivel">
+        <p id="topo">Nossos donut são deliciosos</p>
+        </div>
+    
+        <header>
     
         <div class="cardapio">
         <h2>Brigadeiros Artesanais</h2>        
         <p>Nossos deliciosos <strong>brigadeiros</strong> são preparados com ingredientes de alta qualidade, como leite condensado, cacau em pó e cobertura de granulado de chocolate. Eles proporcionam uma experiência única de sabor e textura, deixando seu paladar apaixonado. Com um cardápio exclusivo, oferecemos uma variedade de <strong>brigadeiros</strong> que são verdadeiras joias doces, criadas com carinho e dedicação. Não deixe de experimentar as nossas incríveis opções de <strong>brigadeiros</strong> e se deliciar com cada mordida!</p>
         
-            <div class="context">
+        <div class="conteiner">
+            <div class="row">
+
+            <div class="product col-md-6">
             <h3>Versões Tradicionais:</h3>
             <p><img src="imagens/brigadeiros-3.jpeg" alt="Caixa com 4 unidade de   brigadeiros">
 
@@ -44,9 +81,9 @@
             </div>     
 
     
-            <div class="context">
+            <div class="product col-md-6">
             <h3>Versões Gourmet</h3>
-            <p><img src="imagens/brigadeiros.jpeg"     alt="" >
+            <p><img src="imagens/brigadeiros.jpeg"     alt="Deliciosos brigadeiros da AYR Donut" >
                 <ul>
                     <li>Ninho com nutella</li>
                     <li>Kitkat</li>
@@ -55,12 +92,13 @@
                     <li>Ferrero Rocher</li>
                 </ul></p>
             </div>
-
+        </div>
             <strong><h2>Donut</h2></strong>
             
             <p>Massa macia e saborosa, cobertura generosa de chocolate derretido e confeitos coloridos que proporcionam um visual irresistível. Feito com os melhores ingredientes, o <strong>donut</strong> é uma escolha perfeita para satisfazer o seu desejo por doces. Saboreie essa iguaria única e memorável e permita-se desfrutar de momentos de prazer e satisfação, seja saboreando o <strong>donut</strong> sozinho ou em boa companhia. Delicie-se com esse <strong>donut</strong> especial que encanta e conquista corações.</p>
         
-            <div class="context">
+        <div class="row">
+            <div class="product col-md-6">
             <h3>Versões Simples:</h3>
             <p><img src="imagens/donut-cardapio.jpeg" alt="Caixa com 4 unidade de   brigadeiros">
 
@@ -74,7 +112,7 @@
             </div>     
 
     
-            <div class="context">
+            <div class="product col-md-6">
             <h3>Versões Recheadas:</h3>
             <p><img src="imagens/donut-cardapio-2.jpeg" alt="" >
                 <ul>
@@ -87,16 +125,21 @@
                 <div class="context">
                     <p>Se quiser saber mais informações e conferir os preços dos nossos deliciosos brigadeiros e donuts, basta acessar o tópico <a href="contato.html#contatos">sobre</a> nos chamar pelo Instagram. Estamos prontos para atender você e proporcionar momentos de pura doçura e satisfação. Não perca tempo, entre em contato conosco agora mesmo!</p>
 
-                    <p><a href="#topo">Topo da Página</a></p>
-
+                    <p><a class="meu-botao" href="#topo">Topo da Página</a></p>
+                </header>
+                </div>
+                </div>
                 </div>
         </div>
-    </header>
 
     <footer>
 
         <p>Os donuts são a redondeza do sabor e os brigadeiros, a doçura que derrete na boca. Venha saborear o encontro perfeito entre o irresistível e o delicioso! &#9825;</p><br><br><br>
     </footer>
 
+        <!--Tags Java-Script do Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
