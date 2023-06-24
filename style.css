@@ -2,19 +2,17 @@
 
 body {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    background-color: #f0b5f0;
-    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+    background-color: #FFD9FF;
+    font-size: 15px;
 }
 
 header{
-    padding: 2% 10%;
+    padding: 20px;
     margin: 50px;
     min-height: 200px;
     background-color: #ffff;
-    border-style: dashed;
-    border-color: #7f00b2
+    border-radius: 10px;
 }
 
 
@@ -23,20 +21,36 @@ article {
 }
 
 p {
-    text-align: center;
+    text-align: justify;
 }
 
 strong{
     font-weight: normal;
 }
 
+.carrossel img{
+    
+    min-width: auto;
+    border-radius: 20px;
+}
+
+#fixa {
+    position: fixed;
+    top: 3px;
+}
+
+.posicao-menu{
+    align-self: center;
+}
+
 h1 {
-    color: #4c007d;
+    color: #804680;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h2 {
-    color: #4c007d;
+    margin-top: 30px;
+    color: #806C80;
 }
 
 h3 {
@@ -82,90 +96,48 @@ h3 {
             text-shadow: 1px 1px 2 #d884d8;
         }
 
-    .context{
-        display: inline-block;
-        flex-grow: 1;
-    }
-        .context h3 {
-            font-size: 35px;
-            margin-top: 10px;
-            color: #4c007d;
-            text-shadow: 1px 1px 2 #d884d8;
-        }
 
-        .context img {
-            width: 400px;
-            height: 200px;
-            margin: 0 50px;
-            padding: 0;
-            object-fit: cover;
-            border-radius: 50px;
-        }
-    
-        .context ul{
-            list-style-type: none ;
-            padding: 30px;
-            padding-left: 0;
-        }
-
-        .context ul, img{
-            border-style: hidden;
-            border-color: #4c007d;
-            background-color: #f3d9f3;
-            border-radius: 10px;
-        }
-
-        .context li{
-            margin: 0px;
-            padding-top: 5px;
-            font-size: 25px;
-            font-style: oblique;
-            color: #2d014b;
-        }
-        .context img, p{
-        float: left;
-        }
-
-
-nav.menu {
-    text-align: center;
-    list-style-type: none;
-    padding: 1% 5%;
-    margin: 50px;
-    overflow: hidden;
-    background-color: white;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav.menu a {
-
-    float: left;
-    display: block; 
-    color: #8521c7;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-nav.menu a:hover {
-    color: plum;
-}
 
 footer {
     text-align: center;
-    background-color: #f0b5f0;
-    padding: 20px 20px;
-    margin: 60px 50px;}
+    background-color: #CCADCC;
+    padding: 20px 20px;}
 
     footer p{
-        font-size: 25px;
+        font-size: 20px;
         margin: 10px;
         padding: 0px 50px;
         font-style: italic;
         font-weight: bold;
         text-shadow: #f1d1f1 1px 1px 2px;
+        text-align: center;
+    }
+
+    /* Estilo padrão do botão */
+    .meu-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    color: #333;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+
+    /* Estilo do botão quando o mouse estiver sobre ele */
+    .meu-botao:hover {
+    background-color: #806C80;
+    color: #fff;
+    }
+
+    /* Estilo do botão quando estiver pressionado */
+    .meu-botao:active {
+    background-color: #555;
+    color: #fff;
+    }
+
+    /* Estilo do botão após ser visitado */
+    .meu-botao:visited {
+    color: purple;
     }
 
 
